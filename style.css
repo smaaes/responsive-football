@@ -1,0 +1,45 @@
+/* -------------------------------
+first section heading and banner style
+---------------------------------- */
+.copa-america{
+    display: flex;
+    background-color: #2D25A0;
+    height: 448px;
+    width: 1077.6px;
+}
+.copa-america:hover {
+    transform: scale(1.1);
+    transition: transform 3s;
+    
+}
+.first-header{
+   width: 50%;
+   height: 50%;
+   padding-left: 70px;
+   padding-bottom: 40px;
+}
+.first-header h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #FFFFFF;
+    padding: 0px;
+}
+.banner-img{
+  width:50%;
+  height:100%;
+  padding-left: 50px;
+}
+.banner-img img{
+    width: 80%;
+    height: 80%;
+    padding: 30px;
+}
+.first-header a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    border-radius: 20px;
+    padding: 15px 30px;
+    font-weight: 700;
+    color:white;
+}
