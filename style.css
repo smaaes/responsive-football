@@ -43,3 +43,32 @@ first section heading and banner style
     font-weight: 700;
     color:white;
 }
+/*----------------------------------------------
+ players details design
+---------------------------------------------- */
+.players-details {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    grid-gap: 20px;
+}
+.player {
+  height: 474px;
+  width: 300px;
+  padding: 10px;
+  box-shadow: 10px 10px 10px gray;
+}
+.player img{
+    height: 60%;
+    width: 95%;
+}
+.player h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+}
+.player h4{
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
